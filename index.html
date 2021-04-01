@@ -9,52 +9,57 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="shortcut icon"  href="img/icon/programming.png">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--Menu-->
-		<a class="navbar-brand" href="#">colocar icone</a>
+	<nav class="navbar navbar-expand-lg navbar-light second-color"> <!--Menu-->
+		<img class="icon" src="img/icon/programming.png">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		  <ul class="navbar-nav mr-auto"> </ul>
-		  <ul class="navbar-nav">
-		  	<li class="nav-item">
-		  		<a class="nav-link" href="#">Projetos</a>
-		  	</li>	
-		  	<li class="nav-item">
-		  		<a class="nav-link" href="#">Skills</a>
-		  	</li>	
-		  	<li class="nav-item">
-		  		<a class="nav-link" href="#">Contato</a>
-		  	</li>	
-		  	<li class="nav-item">
-		  		<a class="nav-link" href="#">Sobre mim</a>
-		  	</li>	
+		  <ul class="navbar-nav mr-auto">
+		  </ul>		
+		  <ul class=" navbar-nav a-menu" >
+				<li class="nav-item">
+			  		<a class="nav-link second-title " href="#projeto">Projetos</a>
+			  	</li>	
+			  	<li class="nav-item">
+			  		<a class="nav-link second-title" href="#">Skills</a>
+			  	</li>	
+			  	<li class="nav-item">
+			  		<a class="nav-link second-title" href="#contato">Contato</a>
+			  	</li>	
+			  	<li class="nav-item">
+			  		<a class="nav-link second-title" href="#sobre">Sobre mim</a>
+			  	</li>
+		  	 
+		   </ul>  	
 		</div>
 	</nav> <!--Menu-->
 
-	<section  class="jumbotron text-center section"> <!--Section info-->
+	<section  class="jumbotron text-center section first-color"> <!--Section info-->
 		<img class="photo" src="img/photo/foto-site.png">
         <div class="container">
-          <h1 class="jumbotron-heading">Daniel Custódio</h1>
-          <p class="lead text-muted">Eu sou desenvolvedor front-end, formado em Análise e Desenvolvimento de Sistemas</p>
-          <p> <a href="#" class="btn btn-light my-2">Contato</a></p>   
+          <h1 class="jumbotron-heading first-title">Daniel Custódio</h1>
+          <p class="lead text-muted">Desenvolvedor front-end, formado em Análise e Desenvolvimento de Sistemas</p>
+         <p> <a href="#contato" class="btn btn-light my-2">Contato</a></p>  
           <nav>
           	<a href="https://github.com/DanielSCustodio" target="_blank"><img class="icon"src="img/icon/github.png"></a>
           	<a href="https://www.linkedin.com/in/danielsilvacustodio/ "target="_blank"><img class="icon"src="img/icon/linkedin.png"></a>
           	<a href="https://wakatime.com/@Custodio" target="_blank"><img class="icon"src="img/icon/wakatimee.png"></a>
           	<a href="https://www.instagram.com/danielscustodio/" target="_blank"><img class="icon"src="img/icon/instagram.png"></a>
           </nav>
-        </div>
+        </div><!--Section info-->
     </section>
-    <div class="album py-5 bg-light">
-        <div class="container">
-          <div class="row">
 
+    <div class="album py-5  third-color" id="projeto" ><!--Section Projetos-->
+        <div class="container">
+        	<h2 class="jumbotron-heading text-center second-title">Projetos</h2>
+          <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/proj/churras.png" data-holder-rendered="true">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block; " src="img/proj/churras.png" data-holder-rendered="true">
                 <div class="card-body">
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <ul>
@@ -108,16 +113,12 @@
             </div>
           </div>
         </div>
-    </div> <!--Section info-->
-    <div class="container marketing">
+    </div> <!--Section Projetos-->
 
-        
-   
-
-
-     <section class="jumbotron  text-center" ><!--Sobre mim -->
+ 
+     <section class="jumbotron text-center third-color" id="sobre"><!--Sobre mim -->
     	<div class="container">
-    		<h2 class="jumbotron-heading">Sobre Mim</h2>
+    		<h2 class="jumbotron-heading second-title">Sobre Mim</h2>
     		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -127,22 +128,30 @@
     	</div>
     </section> <!--Sobre mim -->
 
-    <section>
-    	<div>
-    		<div class="container-fluid"></div>
-    		<h3 class="text-center">Disponível para oportunidades</h3>
+    <section class="first-color" id="contato"><!--contato-->
+    	<div >
+    		<div class="container-fluid contact" ></div>
+    		<h4 class="text-center first-title">Disponível para oportunidades</h4>
     		<div class="contato-item">
+    			<div class="text-center ">
+	          	<a href="https://github.com/DanielSCustodio" target="_blank"><img class="icon"src="img/icon/github.png"></a>
+	          	<a href="https://www.linkedin.com/in/danielsilvacustodio/ "target="_blank"><img class="icon"src="img/icon/linkedin.png"></a>
+	          	<a href="https://wakatime.com/@Custodio" target="_blank"><img class="icon"src="img/icon/wakatimee.png"></a>
+	          	<a href="https://www.instagram.com/danielscustodio/" target="_blank"><img class="icon"src="img/icon/instagram.png"></a>
+          	</div>
     			<img src="">
-    			<h4 class="text-center">danielcustodio_@outlook.com</h4>
+    			<a href="mailto:danielcustodio_@outlook.com"><h6 class="text-center">danielcustodio_@outlook.com</h6></a>
 			</div>
 			<div class="contato-item">
     			<img src="">
-    			<h4 class="text-center">(24)98150-5761</h4>
+    			<h6 class="text-center border-h4 first-title">(24)98150-5761</h6>
 			</div>
-    	</div>
-    </section>
 
-    <footer><p class="text-center">Leinad Storm - 2021 - Daniel da Silva Custódio</p></footer>
+			
+    	</div>
+    </section><!--contato-->
+
+    <footer class="second-color txt-footer"><p class="text-center">2021 - Daniel da Silva Custódio</p></footer>
 </body>
 </html>
 

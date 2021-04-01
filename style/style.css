@@ -4,16 +4,95 @@ pinky photic #FC86AA
 work-shy light grey #D8DCD6*
 https://colors.lol/piscine/ */
 
-body{
-	
+html{
+	scroll-behavior: smooth;
 }
-
 .photo{
 
 	width: 150px;
 	border-radius: 50%;
 }
+
+.first-color{
+	background: #000133 !important;
+}
+
+.second-color{
+	background: #FC86AA !important;
+}
+
+.third-color{
+	background: #D8DCD6 !important;
+}
+
 .icon{
 	width: 35px;
-	padding-left: 10px;
+	padding-left: 5px;
+}
+
+.first-title{
+	text-transform: uppercase;
+	color: #F0E7E7;
+}
+
+.second-title{
+	text-transform: uppercase;
+	color: #001033 !important;
+}
+
+a{
+	text-decoration: none;
+	color: #D8DCD6;
+}
+
+.a-menu{
+	text-decoration: none;
+	color: #000133 !important;
+	font-weight: 600;
+}
+
+a:hover{
+	color: white !important;
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none !important;
+}
+
+p{
+	font-family: Lato,'Helvetica Neue',Helvetica, Arial, sans-serif;
+	color: black !important;
+}
+
+
+.jumbotron{
+	margin: 0;
+	padding: 10px;
+	border-radius: 0px;
+}
+
+.txt-footer{
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.contact{
+	padding-top: 15px;
+}
+
+.border-h4{
+	margin-bottom:  0;
+	padding-bottom: 15px;
+}
+
+h2.second-title{
+	margin: 0;
+	padding-bottom: 40px;
+	padding-top: 80px;
+}
+.py-5{
+	padding-top: 0px !important
+
 }
