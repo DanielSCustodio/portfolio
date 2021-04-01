@@ -1,3 +1,16 @@
 /*ransacked royal purple #4B006E
 unreproached carolina blue #8AB8FE
 clean-cut very dark blue #000133*/
+body{
+	background: #8AB8FE;
+}
+
+.photo{
+
+	width: 150px;
+	border-radius: 50%;
+}
+.icon{
+	width: 5%;
+	padding-left: 30px;
+}
