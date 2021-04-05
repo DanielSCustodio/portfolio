@@ -7,8 +7,14 @@ https://colors.lol/piscine/ */
 html{
 	scroll-behavior: smooth;
 }
-.photo{
+/*________________________________________*/
 
+
+body{
+	background: #403F3F;
+}
+
+.photo{
 	width: 150px;
 	border-radius: 50%;
 }
@@ -30,8 +36,6 @@ html{
 	padding-left: 5px;
 }
 
-
-
 .first-title{
 	text-transform: uppercase;
 	color: #F0E7E7;
@@ -40,10 +44,8 @@ html{
 
 .second-title{
 	text-transform: uppercase;
-	color: #001033 !important;
-	
+	color: #001033 !important;	
 }
-
 
 
 a{
@@ -71,84 +73,55 @@ p{
 	color: black !important;
 }
 
-
-.jumbotron{
-	margin: 0;
-	padding: 10px;
-	border-radius: 0px;
-}
-
 .txt-footer{
 	margin: 0px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
-.border-h4{
-	margin-bottom:  0;
-	padding: 10px;
+
 }
 
 h2.second-title{
 	margin: 0;
-	padding-bottom: 40px;
-	padding-top: 80px;
+	padding-bottom: 10px;
 	font-size: 1.7rem;
 	letter-spacing: 0.5rem
 }
-.py-5{
-	padding-top: 0px !important
-
-}
-.contato-item{
-	padding-bottom:  15px;
-	padding-bottom: solid 45px ;
-}
 
 
 
-.auto{
-	width: 250px;
-	margin: auto;
-	
-	padding-top: 55px;
-	padding-left: 45px;
-	
+/*__________________________________________________________________________*/
 
+.container-contato{
+	margin-bottom: 20px;
+	margin-top: 20px;	
 }
 
-.container-contact{
-	display: table;
-	margin: 0 auto;
+#contato{
+	 padding-top: 10px;
+	 border-top: solid 1px white;
 }
-
-.txt-contact{
-	display: table-cell;
-
-	
-}
-
-.img-contact{
-	clear: both;
-	display: table-cell;
-
-}	
-
-.icon-contact{
-	width: 1.5rem;
-	margin-left: 10px;
-	padding-left: 10px;
-}
-
-.p-contact {
-	text-decoration: none;
+.p-contact{
+	display: inline;
 	color: white !important;
-	font-weight: 200;
-	padding-left: 5px;
 	margin: 0;
 }
 
-.align-contact{
-	display: inline-block;
+.social-media{
+	padding: 15px;
+}
 
+.container-contato{
+	margin: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.container-whatsapp{
+	 padding: 10px;
+}
+
+.img-contact{
+	padding-right: 5px;
 }
