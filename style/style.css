@@ -9,11 +9,6 @@ html{
 }
 /*________________________________________*/
 
-
-body{
-	
-}
-
 .photo{
 	width: 150px;
 	border-radius: 50%;
@@ -129,41 +124,81 @@ h2.second-title{
 /*___________________________________Skills______________________________________*/
 
 .container-skills{
-	height: 50vh;
-	background-color:  #383838; 
-	display: flex;
+	width:100%;
+	height: 100vh;
+	background-color:#a4152c;
+	display:flex;
 	justify-content: center;
 	align-items: center;
 
 }	
 
 .box{
-	width: 33%;
-	height: 80%;
-	background: white;
+	width:350px;
+	height:610px;
+	background-color:#1e1e26;
 	border-radius: 10px;
-	box-shadow: 2px 10px 12px(0,0,0,0.5);
+	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 	box-sizing: border-box;
 	margin: 20px 10px;
-	background:#383838;
 }
 
 .model{
-	height: 33%;
-	height: 50%;
+	height: 350px;
+	max-height: 100%;
 	max-width: 100%;
+	
 }
 
-.text-center-skill{
+.container-skill{
+	font-family: calibri;
+	font-weight: bold;
+	color:#6a6a74;
 	text-align: center;
-	margin-bottom: 0;
+	margin-top: 20px;
 }
 
+.container-skill p{
+	font-family: calibri;
+	font-weight: bold;
+	color:#6a6a74;
+	text-align: center;
+	margin-top: 20px;
+}
 .a-skill{
 	margin: 0;
 	text-align: center;
+}
+
+.box:hover{
+	background: #6000FF;
+	transform-style: preserve-3d;
+	transform: scale(1.02);
+	transition: all ease .0s;
+}
+
+.box:hover h2{
+	color: #41F602;
+	transition:all ease 1.0s;
+}
+
+@media(max-width: 720px){
+	.box{
+		width: 94%;
+		height: 500px;
+
+	}
+
+	.model{
+		height: 250px;
+
+	}
+	.container-skill p{
+		font-size: 16px;
+		width: 250px;
+	}
 }

@@ -1,3 +1,4 @@
+
 (function ($, undefined) {
     'use strict';
     var defaults = {
