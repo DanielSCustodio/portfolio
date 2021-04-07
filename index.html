@@ -9,32 +9,24 @@
 	<link rel="stylesheet" type="text/css" href="style/css-reset.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/lightslider.css">
-	
-	
-
+		
 	<script type="text/javascript" src="js/JQuery3.3.1.js"></script>
 	<script type="text/javascript" src="js/lightslider.js"></script>
-
-
-
-
-    
+   
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	
-	
-
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	
 	
 </head>
 <body>
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark"><!--menu-->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark"> <!--menu-->
 		<div class="container">
 			<a class="navbar-brand" href="#">LOGO</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
 			<span class="navbar-toggler-icon"></span>			
 		</button>
+
 		<div class="collapse navbar-collapse" id="navbarSite">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
@@ -69,24 +61,26 @@
 		</div>
 	</nav><!--menu-->
 
-	<section  class="jumbotron text-center section first-color"> <!--Section info-->
-		<img class="photo" src="img/photo/foto-site.png">
-        <div class="container">
-          <h1 class="jumbotron-heading first-title">Daniel Custódio</h1>
-          <p class="lead text-muted">Desenvolvedor front-end, formado em Análise e Desenvolvimento de Sistemas</p>
-         <p> <a href="#contato" class="btn btn-outline-dark my-2">Contato</a></p>  
-          <nav>
-          	<a href="https://github.com/DanielSCustodio" target="_blank"> <img src="img/icon/github.png"> </a>
-          	<a href="https://www.linkedin.com/in/danielsilvacustodio/ "target="_blank"><img class="icon"src="img/icon/linkedin.png"></a>
-          	<a href="https://wakatime.com/@Custodio" target="_blank"><img class="icon"src="img/icon/wakatimee.png"></a>
-    
-          </nav>
-        </div><!--Section info-->
-    </section>
+	<section  class="text-center  spacing-info "> <!--Section info-->
+		<div class="cover-background">
+			<img class="photo" src="img/photo/foto-site.png">
+	        <div>
+	          <h1 class="jumbotron-heading first-title">Daniel Custódio</h1>
+	          <p class="lead text-muted">Desenvolvedor front-end, formado em Análise e Desenvolvimento de Sistemas</p>
+	         <p> <a href="#contato" class="btn btn-outline-dark my-2">Contato</a></p>  
+	          <nav>
+	          	<a href="https://github.com/DanielSCustodio" target="_blank"> <img src="img/icon/github.png"> </a>
+	          	<a href="https://www.linkedin.com/in/danielsilvacustodio/ "target="_blank"><img class="icon"src="img/icon/linkedin.png"></a>
+	          	<a href="https://wakatime.com/@Custodio" target="_blank"><img class="icon"src="img/icon/wakatimee.png"></a>
+	    
+	          </nav>
+	        </div>
+        </div>
+    </section><!--Section info-->
 
-    <div class="album py-5  third-color" id="projeto" ><!--Section Projetos-->
-        <div class="container">
-        	<h2 class="jumbotron-heading text-center second-title">Projetos</h2>
+    <div  id="projeto"  class="spacing-menu container second-color jumbotron"><!--Section Projetos-->
+        <div>
+        	<h2 class="text-center">Projetos</h2>
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
@@ -143,14 +137,15 @@
             </div>
           </div>
         </div>
-
     </div> <!--Section Projetos-->
 
-    <section class="container  container-skills " id="skill"> <!--skills-->
+	<div  class="second-color container jumbotron"> 
+    <div class="text-center  spacing-menu" id="skill"><h2>Skill</h2></div>
+    <section class="container-skills container"> <!--skills--> 
     	<ul id="autoWidth" class="cs-hidden">
     		<li class="item-a">
     			<div class="box">
-		         		<img src="img/skill/teste.png" class="model">
+		         		<img src="img/skill/html.png" class="model">
 		      		<div class="container-skill">
 			        	<h2 class="text-center-skill">HTML 5</h2>
 			        	<p class="text-center-skill">Quer saber mais?</p>
@@ -162,9 +157,9 @@
     		</li>
     		<li class="item-a">
     			<div class="box">
-		         		<img src="img/skill/teste.png" class="model">
+		         		<img src="img/skill/css.png" class="model">
 		      		<div class="container-skill">
-			        	<h2 class="text-center-skill">HTML 5</h2>
+			        	<h2 class="text-center-skill">CSS</h2>
 			        	<p class="text-center-skill">Quer saber mais?</p>
 			        	<div  class="a-skill">
 			        		<a href="https://www.devmedia.com.br/o-que-e-o-html5/25820" target="_blank">Clique aqui</a>
@@ -174,9 +169,9 @@
     		</li>
     		<li class="item-a">
     			<div class="box">
-		         		<img src="img/skill/teste.png" class="model">
+		         		<img src="img/skill/javascript.png" class="model">
 		      		<div class="container-skill">
-			        	<h2 class="text-center-skill">HTML 5</h2>
+			        	<h2 class="text-center-skill">JavaScript</h2>
 			        	<p class="text-center-skill">Quer saber mais?</p>
 			        	<div  class="a-skill">
 			        		<a href="https://www.devmedia.com.br/o-que-e-o-html5/25820" target="_blank">Clique aqui</a>
@@ -186,9 +181,9 @@
     		</li>
     		<li class="item-a">
     			<div class="box">
-		         		<img src="img/skill/teste.png" class="model">
+		         		<img src="img/skill/sass.png" class="model">
 		      		<div class="container-skill">
-			        	<h2 class="text-center-skill">HTML 5</h2>
+			        	<h2 class="text-center-skill">Sass</h2>
 			        	<p class="text-center-skill">Quer saber mais?</p>
 			        	<div  class="a-skill">
 			        		<a href="https://www.devmedia.com.br/o-que-e-o-html5/25820" target="_blank">Clique aqui</a>
@@ -198,9 +193,9 @@
     		</li>
     		<li class="item-a">
     			<div class="box">
-		         		<img src="img/skill/teste.png" class="model">
+		         		<img src="img/skill/bootstrap.png" class="model">
 		      		<div class="container-skill">
-			        	<h2 class="text-center-skill">HTML 5</h2>
+			        	<h2 class="text-center-skill">Bootstrap</h2>
 			        	<p class="text-center-skill">Quer saber mais?</p>
 			        	<div  class="a-skill">
 			        		<a href="https://www.devmedia.com.br/o-que-e-o-html5/25820" target="_blank">Clique aqui</a>
@@ -208,17 +203,14 @@
 			        </div>
 	       		</div>
     		</li>
-
-	    	
-    	</ul>
-        
-            	
+	   	</ul>
     </section> <!--skills-->
+    </div>
 
-     <section class="jumbotron text-center third-color font-size" id="sobre"><!--Sobre mim -->
-    	<div class="container">
-    		<h2 class="jumbotron-heading second-title">Sobre Mim</h2>
-    		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     <section class="text-center spacing-menu container second-color jumbotron" id="sobre"><!--Sobre mim -->
+    	<div>
+    		<h2 class="second-title">Sobre Mim</h2>
+    		<p class="p-border">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -227,9 +219,9 @@
     	</div>
     </section> <!--Sobre mim -->
 
-    <section class="first-color contato" id="contato"><!--contato-->
-      	<div class="container-fluid" >
-	    			<h4 class="text-center first-title">Disponível para oportunidades</h4>
+    <section class="first-color contato spacing-menu container second-color jumbotron" id="contato"><!--contato--> 
+      	<div>
+	    			<h4 class="text-center first-title spacing-menu">Disponível para oportunidades</h4>
 	    			<div class="social-media">
 		    			<div class="text-center">
 				          	<a href="https://github.com/DanielSCustodio" target="_blank"><img src="img/icon/github.png"></a>
@@ -252,7 +244,7 @@
 	        </div>  <!--container-contato-->	
    		</div>	<!--conatiner-fluid-->     		
     </section><!--contato-->
-    <footer class="second-color txt-footer"><p class="text-center">2021 - Daniel da Silva Custódio</p></footer>
+    <footer class="txt-footer"><p class="text-center p-border second-color">2021 - Daniel da Silva Custódio</p></footer>
 
  
 
