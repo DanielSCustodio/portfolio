@@ -8,3 +8,31 @@
         } 
     });  
   });
+	$(function(){
+	 	$(window).on("scroll", function(){
+	 		if ($(window).scrollTop() > 50 ) {
+	 			$("#menu").addClass("hidden");
+	 		}else{
+	 			$("#menu").removeClass("hidden");
+	 		}
+	 	});
+	 });
+
+
+
+ $(function(){
+ 	$(window).on("scroll", function(){
+ 		if ($(window).scrollTop() > 600) {
+ 			$("#menu").removeClass("hidden")
+ 			$(".bg-inverse").addClass("color-purple-degrade");
+ 		}else{
+ 			$(".bg-inverse").removeClass("color-purple-degrade");
+ 		}
+ 	});
+ });
+
+
+
+
+
+
