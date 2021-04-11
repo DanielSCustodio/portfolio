@@ -22,7 +22,7 @@
 
  $(function(){
  	$(window).on("scroll", function(){
- 		if ($(window).scrollTop() > 600) {
+ 		if ($(window).scrollTop() > 500) {
  			$("#menu").removeClass("hidden")
  			$(".bg-inverse").addClass("color-purple-degrade");
  		}else{

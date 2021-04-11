@@ -29,10 +29,11 @@ html{
 }
 
 
-.color-purple-degrade{
+.bg-purple-degrade{
 	 background: linear-gradient(-45deg,#000000, #201222);
 	 border-bottom:   solid 1px #09D1FC;
 }
+
 
 .color-bg{
 	background: linear-gradient(-45deg,#1A0E1F,#000000)!important;/*background:#050505 ;*/
@@ -232,6 +233,7 @@ border-bottom:   solid 1px #09D1FC;
 .a-skill{
 	margin: 0;
 	text-align: center;
+	
 }
 
 .box:hover{
