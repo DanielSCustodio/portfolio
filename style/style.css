@@ -95,9 +95,6 @@ a:hover{
 	color: black !important;
 }
 
-a:visited{
-	text-decoration: none !important;
-}
 
 p{
 	font-family: Lato,'Helvetica Neue',Helvetica, Arial, sans-serif;
@@ -110,6 +107,7 @@ p{
 	margin: 0px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	color: #09D1FC !important;
 }
 
 
@@ -140,7 +138,7 @@ border-bottom:   solid 1px #09D1FC;
 	margin-top: 20px;	
 }
 
-.p-contact{
+.p-white{
 	display: inline;
 	color: white !important;
 	margin: 0;
@@ -269,7 +267,10 @@ border-bottom:   solid 1px #09D1FC;
 	text-align: center;
 }
 
-
+/*_____________________________footer_______________________*/
+.p-border p{
+	color: #09D1FC !important;
+}
 
 
 /*@media(max-width: 720px){
