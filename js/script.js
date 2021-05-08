@@ -24,9 +24,9 @@
  	$(window).on("scroll", function(){
  		if ($(window).scrollTop() > 500) {
  			$("#menu").removeClass("hidden")
- 			$(".bg-inverse").addClass("color-purple-degrade");
+ 			$(".bg-inverse").addClass("bg-purple-degrade");
  		}else{
- 			$(".bg-inverse").removeClass("color-purple-degrade");
+ 			$(".bg-inverse").removeClass("bg-purple-degrade");
  		}
  	});
  });

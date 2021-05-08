@@ -96,6 +96,11 @@ a:hover{
 	color: black !important;
 }
 
+.btn-contato:hover{
+	 background-color: white;
+
+     color: #000133!important;
+}
 
 p{
 	font-family: Lato,'Helvetica Neue',Helvetica, Arial, sans-serif;
@@ -118,6 +123,7 @@ p{
 	margin:  100px;
 	border-radius: 50%;
 }
+
 
 
 
