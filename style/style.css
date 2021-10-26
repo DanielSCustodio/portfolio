@@ -4,8 +4,11 @@ pinky photic #FC86AA
 work-shy light grey #D8DCD6*
 https://colors.lol/piscine/ */
 
-html{
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@700&display=swap');
+body{
 	scroll-behavior: smooth;
+  font-family: 'PT Sans Narrow', sans-serif !important;
+  font-weight: 500;
 }
 #footer{
 	padding: 30px;
@@ -179,7 +182,10 @@ border-bottom:   solid 1px #09D1FC;
 }
 
 .container-redesocial{
-	 padding-top: 10px;
+  padding-top: 10px;
+}
+.img-redesocial{
+  color:red;
 }
 
 .p-redesocial{
