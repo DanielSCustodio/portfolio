@@ -5,285 +5,299 @@ work-shy light grey #D8DCD6*
 https://colors.lol/piscine/ */
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@700&display=swap');
-body{
-	scroll-behavior: smooth;
+
+body {
+  scroll-behavior: smooth;
   font-family: 'PT Sans Narrow', sans-serif !important;
   font-weight: 500;
 }
-#footer{
-	padding: 30px;
+
+#footer {
+  padding: 30px;
 }
 
 
 /*________________________________________*/
 
-.cover{
-	height: 100vh;
-	width: 100vw;
+.cover {
+  height: 100vh;
+  width: 100vw;
 }
 
-.hidden{
-	display: none !important;
- }
-
-.border-menu-rs{
-	border-radius:  10px !important;
-	border:   solid 1px #09D1FC !important;
+.hidden {
+  display: none !important;
 }
 
-
-.bg-purple-degrade{
-	 background: linear-gradient(-45deg,#000000, #201222);
-	 border-bottom:   solid 1px #09D1FC;
+.border-menu-rs {
+  border-radius: 10px !important;
+  border: solid 1px #09D1FC !important;
 }
 
 
-.color-bg{
-	background: linear-gradient(-45deg,#1A0E1F,#000000)!important;/*background:#050505 ;*/
-}
-
-.first-color{
-	background: #000133 !important;
-}
-
-.second-color{
-	background: linear-gradient(45deg,#3C3939,#000000)!important;
-}
-
-.third-color{
-	background: #D8DCD6 !important;
-}
-
-.color-bg-bkack{
-	background-color: #222020 !important;
-}
-
-.icon{
-	width: 2rem;
-	padding-left: 5px;
-}
-
-.first-title{
-	text-transform: uppercase;
-	color: #E9E1E1;
-	letter-spacing: 0.3em;
-
-}
-
-.second-title{
-	text-transform: uppercase;
-	color: #001033 !important;	
+.bg-purple-degrade {
+  background: linear-gradient(-45deg, #000000, #201222);
+  border-bottom: solid 1px #09D1FC;
 }
 
 
-a{
-	text-decoration: none;
-	color: #09D1FC  !important;
+.color-bg {
+  background: linear-gradient(-45deg, #1A0E1F, #000000) !important;
+  /*background:#050505 ;*/
 }
 
-.a-menu{
-	text-decoration: none;
-	color: #000133 !important;
-	font-weight: 600;
+.first-color {
+  background: #000133 !important;
 }
 
-a:hover{
-	text-decoration: none !important;
-	
-	color: #E9E1E1 !important;
+.second-color {
+  background: linear-gradient(45deg, #3C3939, #000000) !important;
 }
 
-.color-bg-bkack a:hover{
-	text-decoration: none !important;
-	
-	color: black !important;
+.third-color {
+  background: #D8DCD6 !important;
 }
 
-.btn-contato:hover{
-	 background-color: white;
-
-     color: #000133!important;
+.color-bg-bkack {
+  background-color: #222020 !important;
 }
 
-p{
-	font-family: Lato,'Helvetica Neue',Helvetica, Arial, sans-serif;
-	color: black !important;
+.icon {
+  width: 2rem;
+  padding-left: 5px;
+}
+
+.first-title {
+  text-transform: uppercase;
+  color: #E9E1E1;
+  letter-spacing: 0.3em;
+
+}
+
+.second-title {
+  text-transform: uppercase;
+  color: #001033 !important;
 }
 
 
+a {
+  text-decoration: none;
+  color: #09D1FC !important;
+}
 
-.txt-footer{
-	margin: 0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	color: #09D1FC !important;
+.a-menu {
+  text-decoration: none;
+  color: #000133 !important;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: none !important;
+
+  color: #E9E1E1 !important;
+}
+
+.color-bg-bkack a:hover {
+  text-decoration: none !important;
+
+  color: black !important;
+}
+
+.btn-contato:hover {
+  background-color: white;
+
+  color: #000133 !important;
+}
+
+p {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: black !important;
 }
 
 
 
-.photo{
-	width: 150px;
-	margin:  100px;
-	border-radius: 50%;
+.txt-footer {
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #09D1FC !important;
+}
+
+
+
+.photo {
+  width: 150px;
+  margin: 100px;
+  border-radius: 50%;
 }
 
 
 
 
 /*____________________________________Info_____________________________________*/
-.spacing-info{
-height: 100%;
-width: 100%;
-overflow: hidden;
-margin-bottom: 50px;
-border-bottom:   solid 1px #09D1FC;
+.spacing-info {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border-bottom: solid 1px #09D1FC;
 }
 
 
 
 /*____________________________________Contato______________________________________*/
 
-.container-contato{
-	margin-bottom: 20px;
-	margin-top: 20px;	
+.container-contato {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.p-white{
-	display: inline;
-	color: white !important;
-	margin: 0;
+.p-white {
+  display: inline;
+  color: white !important;
+  margin: 0;
 }
 
 
 
-.social-media{
-	padding: 15px;
+.social-media {
+  padding: 15px;
 }
 
-.container-contato{
-	margin: 0;
-	padding-bottom: 20px;
-	padding-top: 20px;
+.container-contato {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-.container-whatsapp{
-	 padding: 10px;
+.container-whatsapp {
+  padding: 10px;
 }
 
-.img-contact{
-	padding-right: 5px;
+.img-contact {
+  padding-right: 5px;
 }
 
-.img-redesocial{
-	position: absolute;
-	left: 0;
-	width: 30px;
-	padding-left: 5px;
+.img-redesocial {
+  position: absolute;
+  left: 0;
+  width: 30px;
+  padding-left: 5px;
 }
 
-.container-redesocial{
+.container-redesocial {
   padding-top: 10px;
 }
-.img-redesocial{
-  color:red;
+
+.img-redesocial {
+  color: red;
 }
 
-.p-redesocial{
+.p-redesocial {
 
-	display: inline;
-	color: white !important;
-	margin: 0;
-	padding-left: 5px;
+  display: inline;
+  color: white !important;
+  margin: 0;
+  padding-left: 5px;
 }
+
 /*___________________________________Skills______________________________________*/
 
-.container-skills{
-	width:100%;
-	height: 40vh;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-}	
-
-.box{
-	width:323px;
-	height:260px;
-	background-color:#181717;
-	border-radius: 10px;
-	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	box-sizing: border-box;
-	margin: 20px 10px;
+.container-skills {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.model{
-	padding-top: 30px;
-	height: 350px;
-	max-height: 50%;
-	max-width: 50%;
-}
-
-.container-skill{
-	font-family: calibri;
-	font-weight: bold;
-	color:#6a6a74;
-	text-align: center;
+.container-skill h2, p, a{
+  font-family: 'PT Sans Narrow', sans-serif !important;
 
 }
 
-.container-skill p{
-	margin: 0;
-	font-family: calibri;
-	font-weight: bold;
-	color:#6a6a74;
-	text-align: center;
-	margin-top: 20px;
-}
-.a-skill{
-	margin: 0;
-	text-align: center;
-	
-}
-
-.box:hover{
-	 background: linear-gradient(-45deg,#000000, #201222);
-	transform-style: preserve-3d;
-	transform: scale(1.02);
-	transition: all ease .0s;
-	border-radius: 10px;
+.box {
+  width: 323px;
+  height: 260px;
+  background-color: #181717;
+  border-radius: 10px;
+  box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 20px 10px;
 }
 
-.box:hover h2{
-	color: #E6D2D2 ;
-	transition:all ease 1.0s;
-}
-.padding-adjuste{
-	padding-bottom:  50px !important;
+
+.model {
+  padding-top: 30px;
+  height: 350px;
+  max-height: 50%;
+  max-width: 50%;
 }
 
-.p-border{
-	margin: 0;
+.container-skill {
+  font-family: calibri;
+  font-weight: bold;
+  color: #6a6a74;
+  text-align: center;
+
 }
 
-.spacing-container{
-	padding-top:  50px;
+.container-skill p {
+  margin: 0;
+  font-family: calibri;
+  font-weight: bold;
+  color: #6a6a74;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.teste{
-	padding-bottom: 30px;
+.a-skill {
+  
+  margin: 0;
+  text-align: center;
+
+}
+
+.box:hover {
+  background: linear-gradient(-45deg, #000000, #201222);
+  transform-style: preserve-3d;
+  transform: scale(1.02);
+  transition: all ease .0s;
+  border-radius: 10px;
+}
+
+.box:hover h2 {
+  color: #E6D2D2;
+  transition: all ease 1.0s;
+}
+
+.padding-adjuste {
+  padding-bottom: 50px !important;
+}
+
+.p-border {
+  margin: 0;
+}
+
+.spacing-container {
+  padding-top: 50px;
+}
+
+.teste {
+  padding-bottom: 30px;
 
 }
 
 .container-rede-social {
-	text-align: center;
+  text-align: center;
 }
 
 /*_____________________________footer_______________________*/
-.p-border p{
-	color: #09D1FC !important;
+.p-border p {
+  color: #09D1FC !important;
 }
 
 
