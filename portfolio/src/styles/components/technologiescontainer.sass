@@ -1,0 +1,73 @@
+@use '../variables'
+@use '../mixins'
+
+#technologies-container
+  margin-bottom: 1rem
+
+  .technologies-grid
+    display: flex
+    flex-wrap: wrap
+    gap: 1.5rem
+
+    .technology-card
+      @include mixins.center
+      @include mixins.shadow()
+      gap: 1.5rem
+      padding: 1rem
+      width: 45%
+      border-radius: variables.$card-border-radius
+
+      h3
+        color: variables.$text-color
+        margin-bottom: 1rem
+
+      svg
+        font-size: 6rem
+
+    #html5
+      svg
+        color: #E54D26
+
+    #css3
+      svg
+        color: #2465F1
+
+    #javascript
+      svg
+        color: #EAD41C
+
+    #python
+      svg
+        color: #F1D557
+
+    #node
+      svg
+        color: #67B442
+
+    #mysql
+      svg
+        color: #005C85
+
+    #react
+      svg
+        color: #5CCFEE
+
+    #sass
+      svg
+        color: #C36291
+
+    #nextjs
+      svg
+        color: #FFFFFF
+
+    #typescript
+      svg
+        color: #0074C2
+
+    #mongodb
+      svg
+        color: #0FA14C
+
+    #wordpress
+      svg
+        color: #1F6F93
