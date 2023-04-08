@@ -4,6 +4,7 @@ import Avatar from '../img/perfil.jpeg';
 
 import '../styles/components/sidebar.sass';
 import SocialNetworks from './SocialNetworks';
+import InformationContainer from './InformationContainer';
 
 const Sidebar = () => {
   return (
@@ -11,8 +12,11 @@ const Sidebar = () => {
       <img src={Avatar} alt="Daniel Custódio" />
       <p className="title">Web Developer</p>
       <SocialNetworks />
-      <p>informações de contato</p>
-      <a href="" className="btn">
+      <InformationContainer />
+      <a
+        href="https://docs.google.com/uc?export=download&id=1Fvf6N4Mxz_egxrGLAWyffZfr1OEUny6d"
+        className="btn"
+      >
         Download Currículo
       </a>
     </aside>

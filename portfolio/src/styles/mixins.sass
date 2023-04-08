@@ -1,4 +1,5 @@
 @use 'variables'
+@use 'sass:color'
 
 @mixin center()
   display: flex
@@ -11,3 +12,6 @@
   background: variables.$gradient-btn
   text-decoration: none
   border-radius: 3rem
+
+  &:hover
+    filter: contrast(150%)
