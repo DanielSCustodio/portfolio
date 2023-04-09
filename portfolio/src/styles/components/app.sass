@@ -7,15 +7,29 @@
   padding: 5rem 2rem
   gap: 3rem
 
+  @include mixins.mobile-smartphone
+    padding: 1rem
+    gap: 2rem
+
   h1
     margin-left: 30%
     width: 100%
     font-size: 5rem
-    background: variables.$gradient
+    background: linear-gradient(201deg, rgba(116,53,149,1) 38%, #390945 83%)
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
+
+    @include mixins.mobile-tablet
+      font-size: 3rem
+      margin-left: 35%
+      text-align: center
+
+    @include mixins.mobile-smartphone
+      font-size: 2rem
+      margin-left: 0
 
 #sidebar, #main-content
   @include mixins.shadow()
 
-  
+  @include mixins.mobile-tablet
+    box-shadow: none
