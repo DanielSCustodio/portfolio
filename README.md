@@ -2,6 +2,8 @@
 
 <body>
 	<h1>Portfólio React com SASS</h1>
+	<img src="https://user-images.githubusercontent.com/29557187/230750851-9324b5d3-c2b5-414a-9578-88086bab0e20.png"/>
+
   
   <p>Este projeto é um portfólio desenvolvido em React com o objetivo de praticar a integração do React com SASS.</p>
 
