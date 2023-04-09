@@ -17,7 +17,7 @@
 
 <h2>Uso</h2>
 <p>Depois de instalar as dependências, você pode iniciar o servidor de desenvolvimento executando o seguinte comando:</p>
-<pre>npm start</pre>
+<pre>npm run dev</pre>
 <p>Este comando iniciará o servidor de desenvolvimento e abrirá o projeto em seu navegador padrão. Qualquer alteração que você fizer nos arquivos será automaticamente atualizada no navegador.</p>
 
 <h2>Compilação para Produção</h2>
