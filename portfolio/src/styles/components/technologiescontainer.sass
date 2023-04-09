@@ -2,11 +2,13 @@
 @use '../mixins'
 
 #technologies-container
-  margin-bottom: 1rem
+  margin: 2rem 0
 
   .technologies-grid
     display: flex
     flex-wrap: wrap
+    justify-content: space-between
+
     gap: 1.5rem
 
     .technology-card
@@ -14,8 +16,9 @@
       @include mixins.shadow()
       gap: 1.5rem
       padding: 1rem
-      width: 45%
+      width: 48%
       border-radius: variables.$card-border-radius
+      background-color: variables.$bg-color-secondary
 
       h3
         color: variables.$text-color
