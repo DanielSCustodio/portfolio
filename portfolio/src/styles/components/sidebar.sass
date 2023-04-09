@@ -4,26 +4,28 @@
 #sidebar
   background-color: variables.$bg-color
   display: flex
-  flex: 1 1 0
   align-items: center
+  justify-content: space-between
   flex-direction: column
-  text-align: center
-  position: relative
-  padding: 3rem 0
-  border-radius: variables.$card-border-radius
+  position: fixed
+  z-index: 999
+  overflow: hidden
+  left: 0px
+  top: 0px
+  height: 100vh
+  width: 28%
 
   img
-    max-width: 70%
+    max-width: 150px
     border-radius: variables.$container-border-radius
-    position: absolute
-    top: -3rem
+    margin-top: 1rem
 
   .title
-    margin-top: 15rem
     color: variables.$text-color-secondary
     border-radius: variables.$card-border-radius
     background-color: variables.$bg-color-secondary
     padding: .8rem 1.2rem 
 
   .btn
-      @include mixins.btn()
+    @include mixins.btn()
+    margin-bottom: 1rem
