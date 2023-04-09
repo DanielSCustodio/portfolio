@@ -15,6 +15,9 @@
   padding: 0.7rem
   justify-content: space-between
 
+  @include mixins.mobile-tablet
+    @include mixins.shadow()
+
 .card h3
   color: variables.$text-color
   font-size: 1rem
@@ -32,6 +35,8 @@
 
 .card:hover
   @include mixins.shadow()
+
+  @include mixins.mobile-tablet
 
 .content
   padding: 1rem
@@ -116,7 +121,7 @@
   border: 0.1rem solid rgb(50, 53, 216)
 
 .docker:hover
-  background: rgba(16, 26, 53, 0.25)
+  background: rgba(16, 26, 53, 0.777)
 
 .jquery
   border: 0.1rem solid rgb(97, 218, 251)

@@ -15,6 +15,18 @@
   height: 100vh
   width: 28%
 
+  @include mixins.mobile-tablet
+    width: 35%
+    justify-content: space-evenly
+    padding-bottom: 15rem
+
+  @include mixins.mobile-smartphone
+    position: relative
+    left: auto
+    top: auto
+    width: 100%
+    padding-bottom: 0
+
   img
     max-width: 150px
     border-radius: variables.$container-border-radius
@@ -24,7 +36,7 @@
     color: variables.$text-color-secondary
     border-radius: variables.$card-border-radius
     background-color: variables.$bg-color-secondary
-    padding: .8rem 1.2rem 
+    padding: .8rem 1.2rem
 
   .btn
     @include mixins.btn()
