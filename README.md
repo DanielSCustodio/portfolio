@@ -6,7 +6,7 @@
 
   
   <p>Este projeto é um portfólio desenvolvido em React com o objetivo de praticar a integração do React com SASS.</p>
-  <i>Este não é meu portfólio oficial. Para conhecer meu porfólio oficial acesse: http://danielcustodio.com.br/ </i>
+  <i>Este não é meu portfólio oficial. Para conhecer meu porfólio oficial acesse: http://danielcustodio.com.br </i>
 
 <h2>Instalação</h2>
 <p>Para começar a trabalhar neste projeto, é necessário ter o <a href="https://nodejs.org/">Node.js</a> instalado em sua máquina. Você pode baixar e instalar o Node.js seguindo as instruções no site oficial.</p>
