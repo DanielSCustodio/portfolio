@@ -2,6 +2,7 @@
 
 <body>
 	<h1>Portfólio com React e SASS</h1>
+	<h2>Deploy: https://portfolio-daniel-custodio.vercel.app/ </h2>
 	<img src="https://user-images.githubusercontent.com/29557187/230782843-ba117d2b-95cf-46a2-b4d9-3e88977a8a28.png"/>
 
   
