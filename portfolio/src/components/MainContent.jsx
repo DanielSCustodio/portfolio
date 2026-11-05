@@ -9,6 +9,7 @@ const MainContent = () => {
   return (
     <main id="main-content">
       <AboutContainer />
+      <ProjectsContainer />
       <TechnologiesContainer />
       <ProjectsContainer />
     </main>

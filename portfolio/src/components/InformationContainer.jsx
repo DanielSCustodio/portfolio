@@ -8,7 +8,7 @@ const informations = [
   {
     name: 'telefone',
     icon: <AiFillPhone />,
-    info: '(99)9999-9999',
+    info: '(24)98150-5761',
   },
   {
     name: 'e-mail',
