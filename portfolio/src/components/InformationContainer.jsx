@@ -13,7 +13,7 @@ const informations = [
   {
     name: 'e-mail',
     icon: <AiOutlineMail />,
-    info: 'danielcustodio.dev@gmail.com',
+    info: 'contato@danielcustodio.com.br',
   },
   {
     name: 'localização',

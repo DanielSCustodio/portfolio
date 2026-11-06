@@ -16,6 +16,7 @@
   @include mixins.mobile-smartphone
     width: 90%
 
+
   .info-card
     @include mixins.center()
     justify-content: start
@@ -27,17 +28,20 @@
 
     h3, p
       font-family: 'Courier New', Courier, monospace
+      font-size: 1rem !important
+
+      @include mixins.mobile-smartphone
+        font-size: 0.8em !important
+
 
     h3
       text-transform: capitalize
-      font-size: 0.8rem
       margin-bottom: 0.5rem
       color: variables.$text-color-secondary
 
     p
       color: variables.$text-color
       font-weight: bold
-      font-size: 0.7rem
 
     svg
       background-color: variables.$bg-color
