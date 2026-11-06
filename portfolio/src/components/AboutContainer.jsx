@@ -5,17 +5,25 @@ const AboutContainer = () => {
     <section id="about-container">
       <h2>Sobre</h2>
       <p>
-        Formado em Análise e Desenvolvimento de Sistemas, pós-graduando em
-        Desenvolvimento Web Full-Stack e formado na Trybe
+        Sou programador web especializado no desenvolvimento de{' '}
+        <b>sites, blogs e sistemas personalizados</b>. Trabalho com diferentes
+        linguagens de programação e tecnologias, incluindo WordPress, uma das
+        plataformas mais utilizadas para criação e gerenciamento de websites.
       </p>
       <p>
-        A minha principal ferramenta de trabalho é o React, apesar de ter
-        conhecimentos sobre desenvolvimento back-end, escolhi me aprofundar no
-        front-end, especialmente no ecossistema do React.
+        Meu trabalho envolve desenvolver, implementar e manter aplicações web,
+        priorizando{' '}
+        <b>
+          design, organização do conteúdo, desempenho, segurança e facilidade de
+          navegação
+        </b>
+        .
       </p>
       <p>
-        No momento estou consolidando conhecimento sobre Next.js e
-        desenvolvimento com Typescript.
+        Também desenvolvo projetos em colaboração com outros profissionais, como
+        designers e especialistas em marketing digital, buscando entregar
+        soluções completas, funcionais e alinhadas aos objetivos de cada
+        cliente.
       </p>
     </section>
   );
