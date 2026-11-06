@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Avatar from '../img/perfil.jpeg';
+import Avatar from '../img/perfil-2026.jpeg';
 
 import '../styles/components/sidebar.sass';
 import SocialNetworks from './SocialNetworks';
