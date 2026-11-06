@@ -5,7 +5,7 @@
   background-color: variables.$bg-color
   display: flex
   align-items: center
-  justify-content: space-between
+  justify-content: space-around
   flex-direction: column
   position: fixed
   z-index: 999
@@ -33,10 +33,16 @@
     margin-top: 1rem
 
   .title
-    color: variables.$text-color-secondary
+    color: variables.$text-color
     border-radius: variables.$card-border-radius
     background-color: variables.$bg-color-secondary
     padding: .8rem 1.2rem
+    border: 1px solid variables.$text-color-secondary
+  
+  .copywriting
+    color: variables.$text-color
+    font-size: 0.6em
+    
 
   .btn
     @include mixins.btn()
