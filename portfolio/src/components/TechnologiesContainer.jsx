@@ -17,6 +17,13 @@ import {
 
 const technologies = [
   {
+    id: 'wordpress',
+    name: 'Wordpress',
+    icon: <SiWordpress />,
+    description:
+      'É um sistema de gerenciamento de conteúdo (CMS) de código aberto usado para criar sites e blogs.',
+  },
+  {
     id: 'html5',
     name: 'HTML5',
     icon: <SiHtml5 />,
@@ -37,13 +44,7 @@ const technologies = [
     description:
       'Linguagem de programação popular que é usada principalmente para criar páginas web interativas.',
   },
-  {
-    id: 'python',
-    name: 'Python',
-    icon: <SiPython />,
-    description:
-      'Linguagem de programação interpretada, de alto nível e com diversas aplicações.',
-  },
+
   {
     id: 'node',
     name: 'Node',
@@ -92,13 +93,6 @@ const technologies = [
     icon: <SiMongodb />,
     description:
       'MongoDB é um banco de dados de código aberto baseado em documentos e não relacional.',
-  },
-  {
-    id: 'wordpress',
-    name: 'Wordpress',
-    icon: <SiWordpress />,
-    description:
-      'É um sistema de gerenciamento de conteúdo (CMS) de código aberto usado para criar sites e blogs.',
   },
 ];
 
