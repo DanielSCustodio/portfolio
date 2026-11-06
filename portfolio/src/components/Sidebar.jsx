@@ -19,6 +19,9 @@ const Sidebar = () => {
       >
         Download Currículo
       </a>
+      <p className="copywriting">
+        © Copywriting 2026 - Todos os direitos reservados para Daniel Custódio
+      </p>
     </aside>
   );
 };
