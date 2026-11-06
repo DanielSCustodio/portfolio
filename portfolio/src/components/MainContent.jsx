@@ -11,7 +11,6 @@ const MainContent = () => {
       <AboutContainer />
       <ProjectsContainer />
       <TechnologiesContainer />
-      <ProjectsContainer />
     </main>
   );
 };
