@@ -18,11 +18,21 @@
   #github
     color: #111
 
-  #site
+  #whatsapp-web
     color: #25d366
+
+    @include mixins.mobile-smartphone
+      display: none
+
+  #whatsapp-mobile
+    color: #25d366
+    display: none
+
+    @include mixins.mobile-smartphone
+      display: flex
 
   :hover
     background: white
 
   /*   > svg  //filho
-      color: variables.$text-color */
+   color: variables.$text-color */
