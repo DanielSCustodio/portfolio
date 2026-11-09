@@ -15,9 +15,14 @@ const socialNetworks = [
     url: 'https://github.com/DanielSCustodio',
   },
   {
-    name: 'site',
+    name: 'whatsapp-web',
     icon: <FaWhatsapp />,
-    url: 'https://web.whatsapp.com/send?phone=24981505761&text=Ol%C3%A1!%20Tenho%20interesse%20em%20desenvolver%20um%20site%20para%20meu%20neg%C3%B3cio%20e%20gostaria%20de%20conhecer%20melhor%20os%20servi%C3%A7os%20e%20as%20possibilidades.',
+    url: 'https://web.whatsapp.com/send?phone=24981505761&text=Ol%C3%A1!%20Conheci%20seu%20trabalho%20pelo%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os.',
+  },
+  {
+    name: 'whatsapp-mobile',
+    icon: <FaWhatsapp />,
+    url: 'https://api.whatsapp.com/send?phone=24981505761&text=Ol%C3%A1!%20Conheci%20seu%20trabalho%20pelo%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os.',
   },
 ];
 
