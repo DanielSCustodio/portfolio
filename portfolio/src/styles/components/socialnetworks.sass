@@ -11,6 +11,18 @@
     background-color: #ffffab
     font-size: 1.3rem
     border-radius: variables.$card-border-radius
+    transition: transform .3s ease, background .3s ease, box-shadow .3s ease
+
+    &:hover
+      transform: translateY(-5px) scale(1.08)
+      background: white
+      box-shadow: 0 5px 15px rgba(115, 53, 149, .3)
+
+      svg
+        transition: transform .3s ease
+
+      &:hover svg
+        transform: rotate(-8deg)
 
   #linkedin
     color: #0072b1

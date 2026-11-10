@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/technologiescontainer.sass';
 
 import {
   SiHtml5,
@@ -12,7 +13,6 @@ import {
   SiTypescript,
   SiMongodb,
   SiWordpress,
-  SiPython,
 } from 'react-icons/si';
 
 const technologies = [
@@ -95,8 +95,6 @@ const technologies = [
       'MongoDB é um banco de dados de código aberto baseado em documentos e não relacional.',
   },
 ];
-
-import '../styles/components/technologiescontainer.sass';
 
 const TechnologiesContainer = () => {
   return (
