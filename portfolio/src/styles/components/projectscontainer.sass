@@ -1,11 +1,19 @@
 @use '../variables'
 @use '../mixins'
 
+@keyframes project-entry
+  from
+    opacity: 0
+    transform: translateY(30px) scale(.97)
+
+  to
+    opacity: 1
+    transform: translateY(0) scale(1)
+
 .projects-content
   display: grid
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr))
   gap: 1.5rem
-  
 
 .card
   background: variables.$bg-color-secondary
@@ -15,6 +23,16 @@
   cursor: pointer
   padding: 0.7rem
   justify-content: space-between
+  transition: transform .35s ease, box-shadow .35s ease
+  animation: project-entry .6s ease both
+
+  @for $i from 1 through 12
+    &:nth-child(#{$i})
+      animation-delay: #{$i * 0.08}s
+
+  &:hover
+    transform: translateY(-8px)
+    @include mixins.shadow()
 
   @include mixins.mobile-tablet
     @include mixins.shadow()
@@ -33,6 +51,10 @@
   border-top-right-radius: 20px
   max-height: 120px
   object-fit: cover
+  transition: transform .5s ease
+
+  &:hover
+    transform: scale(1.04)
 
 .card:hover
   @include mixins.shadow()
@@ -65,6 +87,12 @@
   display: flex
   gap: 1rem
   margin-bottom: 1rem
+
+  a
+    transition: color .3s ease, transform .3s ease
+
+    &:hover
+      transform: translateY(-3px)
 
 .underline
   padding: 0.2rem 0

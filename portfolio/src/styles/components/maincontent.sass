@@ -1,6 +1,15 @@
 @use '../variables'
 @use '../mixins'
 
+@keyframes line-reveal
+  from
+    transform: scaleX(0)
+    opacity: 0
+
+  to
+    transform: scaleX(1)
+    opacity: 1
+
 #main-content
   background-color: variables.$bg-color
   border-radius: variables.$container-border-radius
@@ -30,6 +39,8 @@
 
     &::after
       @include mixins.gradient-border()
+      transform-origin: left
+      animation: line-reveal .8s .3s ease both
 
   p
     color: variables.$text-color-secondary
