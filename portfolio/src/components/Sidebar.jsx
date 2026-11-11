@@ -13,12 +13,7 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor Web</p>
       <SocialNetworks />
       <InformationContainer />
-      <a
-        href="https://docs.google.com/uc?export=download&id=1Fvf6N4Mxz_egxrGLAWyffZfr1OEUny6d"
-        className="btn"
-      >
-        Download Currículo
-      </a>
+
       <p className="copywriting">
         © Copywriting 2026 - Todos os direitos reservados para Daniel Custódio
       </p>
