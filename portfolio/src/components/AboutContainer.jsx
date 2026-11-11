@@ -6,6 +6,13 @@ const AboutContainer = () => {
     <section id="about-container">
       <h2>Sobre</h2>
       <p>
+        <i>
+          Formado em Análise e Desenvolvimento de Sistemas, pós-graduando em
+          Desenvolvimento Web Full-Stack e formado na Trybe - Desenvolvedor
+          Full-Stack Jr.
+        </i>
+      </p>
+      <p>
         Sou programador web especializado no desenvolvimento de{' '}
         <b>sites, blogs e sistemas personalizados</b>. Trabalho com diferentes
         linguagens de programação e tecnologias, incluindo WordPress, uma das

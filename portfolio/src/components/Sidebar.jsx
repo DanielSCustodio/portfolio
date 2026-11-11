@@ -13,7 +13,6 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor Web</p>
       <SocialNetworks />
       <InformationContainer />
-
       <p className="copywriting">
         © Copywriting 2026 - Todos os direitos reservados para Daniel Custódio
       </p>
