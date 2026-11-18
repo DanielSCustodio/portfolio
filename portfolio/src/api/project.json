@@ -2,7 +2,7 @@
   {
     "id": 18,
     "name": "Haila Heloísa - Marketing Digital",
-    "image": "../src/img/haila.webp",
+    "image": "haila.webp",
     "description": "Landing page com blog, projeto desenvolvido para a Haila Heloísa, especialista em Marketing Digital.",
     "tags": ["html", "css", "wordpress", "javascript"],
     "demo": "https://hailaheloisa.com/"
@@ -10,7 +10,7 @@
   {
     "id": 1,
     "name": "Blog Dev",
-    "image": "../src/img/blogdev.webp",
+    "image": "blogdev.webp",
     "description": "Um blog de programador para programador, tratando de assuntos do universo do desenvolvimento.",
     "tags": ["next", "node", "typescript", "react", "prismic-cms"],
     "source_code": "https://github.com/DanielSCustodio/Blog-com-Next.js",
@@ -20,7 +20,7 @@
   {
     "id": 4,
     "name": "Git Collection",
-    "image": "../src/img/gitcollection.webp",
+    "image": "gitcollection.webp",
     "description": "Através da API do GitHub esta aplicação faz a busca de repositórios e os detalha.",
     "tags": ["react", "styled-components", "typescript", "axios"],
     "source_code": "https://github.com/DanielSCustodio/GitCollection",
@@ -30,7 +30,7 @@
   {
     "id": 17,
     "name": "TasksBoard",
-    "image": "../src/img/taskboard.webp",
+    "image": "taskboard.webp",
     "description": "Organizador de tarefas com método de pagamento e login via conta Google ou Github.",
     "tags": ["react", "next", "typescript", "sass", "firebase"],
     "source_code": "https://github.com/DanielSCustodio/TasksBoard",
@@ -40,7 +40,7 @@
   {
     "id": 6,
     "name": "Link Languages",
-    "image": "../src/img/LinkLanguages.webp",
+    "image": "LinkLanguages.webp",
     "description": "Site profissional para escola de idioma Link Languages, consiste em ser institucional com landing pages.",
     "tags": ["html", "css", "wordpress", "javascript"],
     "demo": "https://linklanguages.com.br/"
@@ -48,7 +48,7 @@
   {
     "id": 7,
     "name": "Jogo Mario",
-    "image": "../src/img/JogoMario.webp",
+    "image": "JogoMario.webp",
     "description": "Jogo do Mario no estilo jump com pontuação, igual ao jogo do dinossauro do Google Chrome. Utilizando Vanilla Javascript.",
     "tags": ["html", "css", "javascript"],
     "source_code": "https://github.com/DanielSCustodio/Jogo-Mario",
@@ -57,7 +57,7 @@
   {
     "id": 8,
     "name": "Pixel Art",
-    "image": "../src/img/PixelArt.webp",
+    "image": "PixelArt.webp",
     "description": "O usuário pode desenhar a partir de uma tela de pixel com o tamanho estipulado pelo mesmo, com uma paleta de cores.",
     "tags": ["html", "css", "javascript"],
     "source_code": "https://github.com/DanielSCustodio/Pixel_Art",
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Agência de Marketing",
-    "image": "../src/img/AgenciadeMarketing.webp",
+    "image": "AgenciadeMarketing.webp",
     "description": "Página home de uma agência de marketing. O Intuito desse projeto é desenvolver as minhas habilidades em HTML e SASS.",
     "tags": ["html", "css", "sass"],
     "source_code": "https://github.com/DanielSCustodio/Agencia-de-Marketing",
@@ -75,7 +75,7 @@
   {
     "id": 16,
     "name": "GitHub Details",
-    "image": "../src/img/GitHubDetails.webp",
+    "image": "GitHubDetails.webp",
     "description": "Através da API do GitHub esta aplicação faz a busca de repositórios e detalha as issues.",
     "tags": ["react", "styled-components", "css", "html"],
     "source_code": "https://github.com/DanielSCustodio/GitHub-Details",
@@ -85,7 +85,7 @@
   {
     "id": 21,
     "name": "Página de E-commerce",
-    "image": "../src/img/PaginadeE-commerce.webp",
+    "image": "PaginadeE-commerce.webp",
     "description": "Home page de um e-commerce com layout moderno utilizando arquitetura SASS.",
     "tags": ["html", "sass", "css"],
     "source_code": "https://github.com/DanielSCustodio/Home-page-e-commerce",
