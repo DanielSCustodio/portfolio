@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Avatar from '../img/perfil-2026.jpeg';
+import Avatar from '../img/daniel-custodio.webp';
 
 import '../styles/components/sidebar.sass';
 import SocialNetworks from './SocialNetworks';
@@ -13,7 +13,6 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor Web</p>
       <SocialNetworks />
       <InformationContainer />
-
       <p className="copywriting">
         © Copywriting 2026 - Todos os direitos reservados para Daniel Custódio
       </p>
